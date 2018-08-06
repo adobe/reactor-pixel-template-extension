@@ -1,0 +1,24 @@
+{
+  "displayName": "Pixel",
+  "name": "pixel",
+  "platform": "web",
+  "version": "1.0.0",
+  "description": "Adds a tracking pixel to a specified URL.",
+  "author": {
+    "name": "Celeste Robinson"
+  },
+  "viewBasePath": "src/view/",
+  "actions": [
+    {
+      "displayName": "Add Pixel",
+      "name": "add-pixel",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/addPixel.js",
+      "viewPath": "actions/addPixel.html"
+    }
+  ]
+}

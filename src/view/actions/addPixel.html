@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Action</title>
+</head>
+
+<style>
+  input:invalid {
+    border: 1px solid red;
+  }
+</style>
+
+<body>
+  <label>
+    Campaign
+    <input id="campaign" type="text" required autofocus>
+  </label>
+  <script src="https://assets.adobedtm.com/activation/reactor/extensionbridge/extensionbridge.min.js"></script>
+  <script>
+    var campaignInput = document.querySelector('#campaign');
+
+    window.extensionBridge.register({
+      init: function (info) {
+        if (info.settings) {
+          campaignInput.value = info.settings.campaign;
+        }
+      },
+
+      getSettings: function () {
+        return {
+          campaign: campaignInput.value
+        }
+      },
+
+      validate: function () {
+        return campaignInput.checkValidity();
+      }
+    });
+  </script>
+</body>
+
+</html>
