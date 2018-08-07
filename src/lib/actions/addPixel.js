@@ -1,8 +1,6 @@
 'use strict';
-var campaign = turbine.getExtensionSettings().campaign;
 
-module.exports = function() {
-  if(campaign) {
-    new Image().src = "//example.com/home?campaign=" + campaign;
-  }
+module.exports = function (settings) {
+  var campaign = settings.campaign;
+  new Image().src = "https://example.com/track?campaign=" + campaign;
 };

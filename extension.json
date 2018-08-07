@@ -15,7 +15,14 @@
       "schema": {
         "$schema": "http://json-schema.org/draft-04/schema#",
         "type": "object",
-        "properties": {}
+        "required": ["campaign"],
+        "additionalProperties": false,
+        "properties": {
+          "campaign": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
       },
       "libPath": "src/lib/actions/addPixel.js",
       "viewPath": "actions/addPixel.html"

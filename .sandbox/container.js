@@ -1,7 +1,7 @@
 module.exports = {
   "dataElements": {},
   "rules": [{
-    "id": "RL1533592678048",
+    "id": "RL1533663520851",
     "actions": [{
       "modulePath": "pixel/src/lib/actions/addPixel.js",
       "settings": {
@@ -20,8 +20,8 @@ module.exports = {
   },
   "buildInfo": {
     "turbineVersion": "25.1.3",
-    "turbineBuildDate": "2018-08-06T21:58:02.382Z",
-    "buildDate": "2018-08-06T21:58:02.382Z",
+    "turbineBuildDate": "2018-08-07T17:38:42.161Z",
+    "buildDate": "2018-08-07T17:38:42.161Z",
     "environment": "development"
   }
 }
