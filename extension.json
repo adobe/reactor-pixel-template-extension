@@ -3,6 +3,7 @@
   "name": "pixel",
   "platform": "web",
   "version": "1.0.0",
+  "iconPath": "tracking-icon.svg",
   "description": "Adds a tracking pixel to a specified URL.",
   "author": {
     "name": "Celeste Robinson"
