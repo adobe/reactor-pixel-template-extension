@@ -10,4 +10,4 @@ Contributions are welcomed! Read the [Contributing Guide](CONTRIBUTING.md) for m
 
 ## Licensing
 
-This project is licensed under the ISC. See [LICENSE](LICENSE) for more information.
+This project is licensed under the MIT. See [LICENSE](LICENSE) for more information.
